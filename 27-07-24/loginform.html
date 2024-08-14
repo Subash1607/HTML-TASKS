@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1><u>LOGIN PAGE </u></h1>
+    <form action="./loginresponse.html" method="post">
+        <dl>
+            <dt>Username:</dt>
+            <input type="text" name="email" id="email" required pattern="[a-zA-Z]+">
+            
+            <br>
+            <dt>Password:</dt>
+            <input type="password" name="Pass" id="Pass"required pattern="[a-zA-Z]+" maxlength="8">
+            <dt>Phone Number:</dt>
+            <input type="number" name="num" id="num" pattern="[/d]" max="10" min="1">
+        </dl>
+<br>
+        <input type="submit" value="login">
+    </form>
+    <br><br><br>
+    <button>
+    <a href="./register.html">Register here !</a></button>
+</center>
+</body>
+</html>

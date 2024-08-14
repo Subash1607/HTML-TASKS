@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOB Validation</title>
+</head>
+<body>
+    <h1>DOB Validation</h1>
+    <form action="./response.html" method="post">
+
+        <input type="text" name="DOB" id="DOB"
+        required
+        placeholder="YYYY-MM-DD"
+        pattern="(1[0-9]{3}|2[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[0-1])"
+        title="should be in formate YYYY-MM-DD">
+        <input type="submit"><br>
+    
+</body>
+</html>

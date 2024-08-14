@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTC APPLICATION</title>
+</head>
+<body>
+    <center>
+        <form action="./rtcresponse.html" method="get">
+    <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/201405/telangana-govt_660_053114102100.jpg" height="80px" width="110px">
+        <h3>TELANGANA STATE ROAD TRANSPORT CORPORATION </h3>
+        <h2>STUDENT BUS PASS APPLICATION ABOVE SSC</h2>
+    <pre>
+        Note:1.TGSRTC officers has reserve right to cancel Registration, ID and Ticket at any point of time.
+        2.Students are requested to Upload Passport Size Photograph only. Otherwise,TGSRTC officers
+        reserve right to cancel your Registration without notice. 
+    </pre>
+    <fieldset>
+    <legend><b>1.Student 10th Details</b> </legend> 
+        <label for="SSC Board Type" >1.1 SSC Board Type :</label>
+        <select name="SSC Board Type" id="SSC Board Type">
+            <option value="SSC">SSC</option>
+            <option value="ICSE">ICSE</option>
+            <option value="CBSE">CBSE</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="SSC REG/SUP">1.2 SSC Regular/Supplementary</label>
+        <select name="SSC REG/SUP" id="SSC REG/SUP" >
+            <option value="REGULAR">REGULAR</option>
+            <option value="Supplementary">Supplementary</option>
+        </select>
+        <br><br><br>
+        <label for="SSC Year of pass">1.3 SSC Year of Pass:</label>
+        <input type="text" name="ssc year of pass" id="ssc year of pass" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="SSC hall ticket no">1.4 SSC Hall ticket no.</label>
+        <input type="text" name="sschallticket" id="sschallticket" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="dob">1.5 Date of Birth</label>
+        <input type="date" name="dob" id="dob">
+
+    </fieldset>
+    
+    <fieldset>
+        <legend><b>2.Student Details</b></legend>
+        <label>2.1 Name *</label>
+        <input type="text" name="name" id="name" >
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <label>2.2 Father's/Guardian's Name *</label>
+        <input type="text" name="fathername" id="fathername" >
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <label>2.3 Date of Birth *</label>
+        <input type="date" name="dateofbirth" id="dateofbirth" >
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <label>2.4 Gender *</label>
+      <input type="radio" id="Gender" value="male">
+      <label for="Gender">Male</label>
+      <input type="radio" id="Gender" value="female">
+      <label for="Gender">Female</label>
+        <br><br><br>
+        <label for="Aadhaar">2.5 Aadhaar No *</label>
+        <input type="text" name="Aadhaar" id="Aadhaar" >
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <label for="Mob">2.6 Mobile Number *</label>
+        <input type="tel" name="Mob" id="Mob" >
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <label for="email">2.8 Email Address </label>
+        <input type="email" name="email" id="email" >
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <br><br><br>
+        <label for="photo">2.9 Photo *</label>
+        <input type="file" name="photo" id="photo" >
+        <br><br><br>
+    </fieldset>
+     
+    <fieldset>
+        <legend><b>3.Resedential Address Details </b></legend>
+        <label for="District">3.1 District</label>&nbsp;&nbsp;&nbsp;
+        <select name="Hyd" id="District" > 
+        <option value="Hyderabad">Hyderabad</option>
+    </select>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Mandal">3.2 Mandal</label>
+        <select name="Mandal" id="Mandal" >
+            <option value="Hyderabad">Hyderabad</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Village">3.3 Village *</label>
+        <select name="Hyderabad" id="Village" >
+            <option value="hyd">Hyderabad</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Address">3.4 Address </label>
+        <textarea name="Address" id="Address" ></textarea>
+        <br><br><br>
+        <label for="postal">3.5 Postal Code </label>
+        <input type="number" name="postal" id="postal" >
+
+    </fieldset>
+    <fieldset>
+        <legend><b>4.Institution Details </b></legend>
+        <label for="clg">4.1 College Name</label>
+        <input type="text" name="clg" id="clg" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="area">4.2 Institute Address</label>
+        <input type="text" name="Address" id="Address" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Course">4.3 Course Name</label>
+        <select name="course" id="course" >
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="MECH">MECH</option>
+            <option value="EEE">EEE</option>
+            <option value="CIVIL">CIVIL</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    </fieldset>
+    <fieldset>
+        <legend><b>5.Mode of Payment :</b></legend>
+        <label for="pay">5.1 Payment Mode *</label>
+       <input type="radio" name="Payment" id="db" value="Debit Card">
+       <label for="db">Debit Card</label>
+       <input type="radio" name="Payment" id="cr" value="Credit Card">
+       <label for="cr">Credit Card</label>
+
+        </select>
+        <br><br><br><br>
+        <label for="delivery">5.2 Pass Delivery Mode </label>
+        <input type="radio" name="pass" id="del">
+        <label for="del">From Counter</label>
+        <input type="radio" name="pass" id="cour">
+        <label for="cour">From Courier</label>
+        <input type="radio" id="pass" value="home">
+        <label for="home">Home Delivery Service</label>
+    </fieldset>
+     
+    <fieldset>
+        <legend><b>6.Route Details & Pass Collection </legend>
+        <input type="radio" name="Details" id="sr">
+        <label for="sr">RTC SR-NAGAR HYD</label>
+        <input type="radio" name="Details" id="bal">
+        <label for="bal">RTC BAL-NAGAR HYD</label>
+        <input type="radio" name="Details" id="char">
+        <label for="char">RTC CHARMINAR HYD</label>
+        <input type="radio" name="Details" id="dil">
+        <label for="dil">RTC DILSHUKNAGAR HYD</label>
+
+
+    </fieldset>
+
+    <br><br><br><br><br>
+    <button>
+        <input type="submit" value="Order and Pay">
+    </button>
+
+
+   
+
+
+ 
+
+</form>
+</center>
+</body>
+</html>

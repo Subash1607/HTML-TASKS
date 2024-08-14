@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>My Resume </title>
+</head>
+
+<body>
+		<img src="C:\Users\SUBASH\Downloads\SUBASH PIC-modified.jpg" height="200" width="200" align="right"></img>
+
+<center>
+<h1>A.Subash Chandra Bose</h1>
+ <p>8-3-228/678/1009/481, Hyderabad, Telangana, 500045</p>
+            <p>Email: subashannaldas@gmail.com</p>
+            <p>Phone: 6281357521</p>
+            <p><a href="https://www.linkedin.com/in/subash-chandra-bose-23b672256/">LinkedIn Profile</a> </p>
+             <p><a href="https://github.com/Subash1607">Github Profile</a></center>
+           
+            <h2>Objective</h2><hr>
+            <p>I am seeking a role in a company where I can contribute my ideas and be mentored towards a successful career.<hr><br> </p>
+        
+            <h2>Education</h2><hr>
+            <p><b>B.Tech</b> <br>
+               Malla Reddy College of Engineering and Technology,Secunderabad, Telangana <br>
+               Graduated : April 2024<br>
+			CGPA : 7.22 </p>
+			<p><b>Intermediate</b> <br>
+               Master's Junior College,Yousufguda,Hyderabad,Telangana <br>
+			Marks: 743/1000<br>
+			<p><b>Secondary Education</b> <br>
+               Good Samaritan High School,Vengal Rao Nagar,Hyderabad,Telangana <br>
+        		GPA: 8.8 <br>
+            <h2>Skills<hr></h2>
+            <ul>
+                <li>Front-end HTML,CSS & Basics of Python</li>
+                <li>Time Management</li>
+                <li>Shift Work Proficiency</li>
+                <li>Team Player&Good Communication Skills</li>
+            </ul>
+        
+            <h2>Projects</h2><hr>
+<ul>
+            <li><p><b>Online Payment Fraud Detection </b><br></li>
+               The model is self-learning which enables it to adapt to new, unknown fraud patterns. </p>
+        	<li><p><b>E-book Website</b></p></li>
+		<p>E-Book website build using HTML, CSS, and JavaScript. Responsive for all devices.</p>
+		<li><p><b>E-commerce Application using Block chain Technology</b></p></li>
+		<p>The "E-Commerce application" is built on a blockchain platform, such as Ethereum, and utilizes smart contracts to automate various aspects of the e- commerce process</p>
+            
+</body>
+</html>

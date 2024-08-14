@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./response.html" method="post">
+        <center>
+            <h2>Details for Registration :</h2>
+        <dl>
+            <dt>First Name:</dt>
+            <input type="text" name="name" id="name" required autocomplete="off" max="10">
+             <dt>Middle Name:</dt>
+            <input type="text" name="middle" id="middle" required autocomplete="off" max="10">
+            <dt>Last Name:</dt>
+            <input type="text" name="last" id="last" required autocomplete="off" max="10">
+         </dl>
+         <dl>
+            <label for="dob">Date of Birth:</label>
+               <input type="date" name="dateofbirth" id="dateofbirth" >  
+               <br>       <br>  <br>
+                <dt>Phone Number</dt>
+                <input type="tel" name="number" id="numer"required autocomplete="off" max="10" min="10">
+            </dl>
+            <dl>
+                <dd>Address</dd>
+                <textarea name="add" id="add" required autocomplete="off"></textarea>
+            </dt>
+        </dl>
+        <dl>
+            <dt>Email ID:</dt>
+            <input type="email" name="mail" id="mail" required>
+            <dt>Password</dt>
+            <input type="text" name="pass" id="pass" required max="8" min="8">
+            <dt>Re-enter Password</dt>
+            <input type="text" name="pass" id="pass"required max="8" min="8">
+
+        </dl>
+
+
+        <button>   <a href="./loginform.html">Go Back</a>  </button>
+        <input type="submit" value="submit">
+    </form>
+ 
+</center>
+</body>
+</html>
